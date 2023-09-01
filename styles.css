@@ -65,6 +65,7 @@ label {
 input[type="text"] {
     width: 100%;
     padding: 0.5rem;
+    color: white;
     margin-bottom: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -95,6 +96,7 @@ footer {
     background-size: cover;
     min-height: 100vh;
   }
+<<<<<<< HEAD
 
   .book {
     background-color: #ff6600;
@@ -274,3 +276,5 @@ footer {
   /* End Header */
 
   
+=======
+>>>>>>> e34a0b277af251910c4f1b7f18c5cb0d1a79c10c
