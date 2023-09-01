@@ -1,8 +1,29 @@
 /* Reset some default styles */
-body, h1, h2, p {
+body, p ,h3 {
     margin: 0;
     padding: 0;
 }
+h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.stylish-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #00a8a2;
+    text-align: center;
+    padding: 20px;
+    /* background-color: #f4f4f4; */
+  }
 
 /* Basic styling */
 body {
@@ -12,7 +33,7 @@ body {
 }
 
 header {
-    background-color: #1f1f1f;
+    background-color: rgba(0, 0, 0, 0);
     color: aqua;
     padding: 1rem;
     text-align: center;
@@ -27,6 +48,7 @@ main {
     padding: 1rem;
     border-radius: 10px;
     color: rgb(252, 252, 252);
+    text-align: center;
 }
 
 label {
@@ -40,6 +62,9 @@ input[type="text"] {
     margin-bottom: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    /* color: #b11616; */
 }
 
 button {
@@ -59,7 +84,7 @@ footer {
 }
 
 .landing {
-    background-image: url("sci-fi.jpg");
+    background-image: url("wallpaper.jpg");
     background-position: center;
     background-size: cover;
     min-height: 100vh;
