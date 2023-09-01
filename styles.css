@@ -96,7 +96,6 @@ footer {
     background-size: cover;
     min-height: 100vh;
   }
-<<<<<<< HEAD
 
   .book {
     background-color: #ff6600;
@@ -115,7 +114,24 @@ footer {
     width: 300px;
     height: 200px;
     margin-right: 20px;
-    
+    color: white;
+}
+
+.hovercar{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+        
+.ride:hover{   
+    color: white;
+      text-align: center;
+     font-size: 16px;
+     opacity: 0.5;
+        transition: 0.3s;
+        display: inline-block;
+         text-decoration: none;
 }
 
  /* Start Login */
@@ -276,5 +292,3 @@ footer {
   /* End Header */
 
   
-=======
->>>>>>> e34a0b277af251910c4f1b7f18c5cb0d1a79c10c
