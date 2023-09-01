@@ -164,7 +164,7 @@ footer {
     transform: translate(-50%, -50%);
   }
   .login-form .content {
-    background-color: white;
+    background-color: rgb(18, 136, 176);
     padding: 25px 30px;
     border-radius: 10px;
     width: 380px;
@@ -258,7 +258,7 @@ footer {
 
   header .form .login {
     background-color: var(--main-light-color);
-    color: var(--black-color);
+    color: red;
     font-weight: bold;
     border: none;
     padding: 10px 22px;
@@ -268,7 +268,7 @@ footer {
   }
   header .login-user {
     background-color: var(--main-light-color);
-    color: var(--black-color);
+    color: red;
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -288,7 +288,7 @@ footer {
   }
   header .form .login:hover,
   header .login-user:hover {
-    background-color: var(--main-color);
+    background-color: rgb(0, 60, 255);
   }
   /* End Header */
 
