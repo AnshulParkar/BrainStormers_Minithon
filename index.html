@@ -12,6 +12,10 @@
     <main class="landing" id="home">
         <header class="stylish-text">
             <h1>TRAVERSE</h1>
+            <div class="form">
+                <i class="fas fa-user login-user"></i>
+                <input class="login" type="submit" value="Login" />
+              </div>
         </header>
         <hr>
         <section id="booking-form">
@@ -23,10 +27,26 @@
                 <label for="dropoff-location"></label>
                 <input type="text" id="dropoff-location" placeholder="Dropoff Location" required>
 
-                <button type="submit">Book Now</button>
+                <button type="submit" class = "book">Book Now</button>
+                <br>
+                <button class = "ride">
+                    <img class = "hovercar" src ="hovercar.jpg" alt = "">
+                    HOVERCAR
+                </button>
+
+                <button class = "ride">
+                    <img class = "hovercar" src ="hyperloop.jpeg" alt = "">
+                    HYPERLOOP
+                </button>
+
+                <button class = "ride">
+                    <img class = "hovercar" src ="bus.jpeg" alt = "">
+                    SKYBUS
+                </button>
             </form>
         </section>
     </main>
+    
     <!-- Start Login -->
     <div class="overlay">
         <span class="fas fa-times"></span>
@@ -56,5 +76,7 @@
     <footer>
         <p>&copy; 2023 Next-Gen Cyberpunk Transportation Platform</p>
     </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
